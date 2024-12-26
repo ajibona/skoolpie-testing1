@@ -1,0 +1,226 @@
+
+*,
+::after,
+::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Poppins", serif;
+}
+
+.upper{
+  height: 170px;
+  background: url("./images/mcdonald-s.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.profile-logo{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  bottom: -50%;
+  transform: translateY(-50%);
+  left: 25px;
+  background: url("./images/mcdonalds-logo.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lower{
+  margin-inline: auto;
+  width: 90%;
+}
+
+.header-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.header-top h2{
+  font-weight: 500;
+}
+
+.header-top span{
+  font-size: 1.3rem;
+  color: #5f5f5f;
+  background-color: #eeecec;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  border-radius: 50px;
+}
+
+.location-rate{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.location, 
+.rate{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.location span{
+  color: red;
+}
+
+.rate span{
+  color: rgb(255, 255, 10);
+}
+
+.location p,
+.rate p,
+.delivery p,
+.price p{
+  font-size: .8rem;
+  color: #838383;
+}
+
+.delivery-price{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.delivery h3,
+.price h3{
+  font-weight: 500;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 15px;
+  background-color: #f3f3f3;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+.search input{
+  width: 100%;
+  font-family: "Poppins", serif;
+  outline: none;
+  border: none;
+  background: transparent;
+  border-right: 1px solid rgb(0, 0, 0);
+}
+
+.search span{
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: #5f5f5f;
+}
+
+.food-list{
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin-inline: auto;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.food span{
+  background-color: #e9e8e8;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.food p{
+  font-size: .8rem
+}
+
+.promotion-banner{
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin-inline: auto;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.text-design h1{
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.text-design p{
+  font-size: .8rem;
+  margin-bottom: 15px;
+}
+
+.text-design button{
+  padding: 10px 20px;
+  border: none;
+  background-color:#000;
+  color: #fff;
+  border-radius: 30px;
+  font-family: "Poppins", serif;
+  font-size: .7rem;
+}
+
+.down-button{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-inline: 30px;
+  padding-block: 20px 20px;
+  background-color: #fff;
+  /* box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.home-select{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.selected span,
+.selected p{
+  color: rgb(0, 0, 0) !important; 
+}
+
+.home-select span{
+  font-size: 1.4rem;
+  color: #aaaaaa;
+  line-height: 0;
+}
+
+.home-select p{
+  font-size: .7rem;
+  color: #aaaaaa;
+}
